@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const postDiv = document.createElement("div");
         postDiv.className = "post";
         postDiv.innerHTML = `
-            <img src=".images/${post.image}" alt="Post image">
+            <img src="./images/${post.image}" alt="Post image">
             <div class="post-caption">${post.caption}</div>
             <div class="social-icons">
             <i class="fab fa-facebook"></i>
